@@ -1,0 +1,10 @@
+name: First CI Demo
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet
+        run: echo "🎉 Hello from GitHub Actions!"

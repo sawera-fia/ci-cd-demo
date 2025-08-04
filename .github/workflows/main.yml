@@ -8,3 +8,6 @@ jobs:
     steps:
       - name: Greet
         run: echo "🎉 Hello from GitHub Actions!"
+      - name: Show date
+        run: date
+
